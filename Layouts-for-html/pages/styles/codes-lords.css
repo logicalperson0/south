@@ -1,0 +1,36 @@
+
+
+/*codes-lords styles*/
+
+.codes-lords-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.codes-lords-wrapper > .codes-lords{
+    width:1000px;
+}
+
+.codes-lords-wrapper > .codes-lords > .codes {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+.codes > .codes-img img{
+    width: 100%;
+    height: 500px;
+    /*The object-fit prop, has a no of values like the cover
+    which while respecting the aspect ratio crops teh img to fit
+    assigned ht and wt prop; choose img wisely!!*/
+    object-fit: fill;
+}
+.codes > .codes-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.codes > .codes-text h1{
+    color: #cea135;
+}

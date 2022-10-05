@@ -1,0 +1,118 @@
+/* nav styles */
+.nav-wrapper{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container*/
+    display: flex;
+    /*How we want the items to be aligned horizontally*/
+    justify-content:space-between;
+     /*How we want the items to be aligned vertically*/
+    align-items:center;
+    /*the padding below and to the rlt r the same thing padding:60px 100px;*/
+    /*padding is white space inside the element*/
+    padding:60px 100px 60px 100px;
+    /*margin is white space outside the element*/
+    margin: 0px;
+}
+
+
+/*left side of the column */
+.nav-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper > .left-column > .icon-cloud{
+    margin-right: 15px;
+}
+.nav-wrapper > .left-column > .icon-cloud i{
+    /*em is like 1em is 100% and 2em is double that; able to control size
+    relatively to everything else*/
+    font-size: 2em;
+   
+}
+.nav-wrapper > .left-column > .hours-phone-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    /*works well for vertical alignment of elements*/
+    grid-gap: 15px; 
+}
+.nav-wrapper > .left-column > .hours-phone-wrapper > .hours{
+    font-family:'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+
+/*right side of column*/
+.nav-wrapper > .right-column{
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper > .right-column > .address-wrapper{
+    font-family:'Ubuntu Condensed', sans-serif;
+    text-align: right;
+    
+}
+.nav-wrapper > .right-column > .address-wrapper a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.nav-wrapper > .right-column > .address-wrapper a:hover{
+    color:#cea135;
+}
+
+.nav-wrapper > .right-column > .icon-bars{
+    margin-left: 15px;      
+}
+.nav-wrapper > .right-column > .icon-bars i{
+    font-size: 2em;
+    color: #cbcbcb;
+    transition: 0.5s; 
+}
+.nav-wrapper > .right-column > .icon-bars i:hover{
+    color: #cea135;
+}
+
+
+/*center side of column*/
+.nav-wrapper > .center-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+/*inorder to center the img inside the grid done above */
+.nav-wrapper > .center-column > .decamp-logo{
+    display: flex;
+    justify-content: center;
+}
+/*logo of decamp*/
+.nav-wrapper > .center-column > .decamp-logo img{
+    width: 216px;
+    height: 100%;
+}
+
+/*only link-wrapper inorder to use it in other parts of the website*/
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-wrapper > .nav-link{
+    width: 70px;
+    text-align: center;
+}
+.link-wrapper > .nav-link a{
+    font-family:'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+

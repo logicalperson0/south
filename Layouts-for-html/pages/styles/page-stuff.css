@@ -1,0 +1,21 @@
+/* page content*/
+.page-box{
+    display: flex;
+    justify-content: center;
+}
+.page-box > .clutch-story{
+    width: 1000px;
+}
+.page-box > .clutch-story > #grievous{
+    width: 450px;
+    margin: 15px 30px 15px 0px;
+    /*floats the element in relation to the other elements in the div*/
+    float: left;
+    border:#cea135 ;
+    border: 1.3px solid #cea135;
+}
+
+.page-box > .clutch-story p{
+    letter-spacing: 1px;
+    line-height: 25px;
+}

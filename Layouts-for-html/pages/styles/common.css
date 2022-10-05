@@ -1,0 +1,28 @@
+/*Common styles*/
+body {
+    /*background: #11122b;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Ubuntu Condensed', sans-serif;*/
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5 h6{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .features{
+        background-color: red;
+    }
+}
+@media screen and (max-width: 400px) {
+    .features{
+        background-color: rgb(0, 38, 255);
+    }
+}
