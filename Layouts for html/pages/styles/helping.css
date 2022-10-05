@@ -1,0 +1,10 @@
+
+/*helper styles*/
+/*This styles helps in that if we use the same styles in codes-lords
+as elsewhere then, sometimes we may need different margin or something
+else and this will make sure it is used only in the intended place */
+
+.spacing60{
+    width: 100%;
+    height: 60px;
+}

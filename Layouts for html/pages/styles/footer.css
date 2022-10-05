@@ -1,0 +1,98 @@
+
+.footer{
+    height: 400px;
+    background-color: #11122b;
+    color:#cbcbcb;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:0px 20px;
+    margin-top: -4px;
+    font-family:'Ubuntu Condensed', sans-serif;
+}
+.footer > .icon-top{
+    display: flex;
+    justify-content: center;
+}
+.footer >.icon-top img{
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+/*the phone and hours*/
+.footer > .phone-hours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    
+}
+.footer > .phone-hours > .phone{
+    padding-right: 30px;
+   
+   
+}
+.footer > .phone-hours > .hours{
+    color: #cea135;
+    
+    
+}
+
+/*the links*/
+.footer > .footer-linker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.footer > .footer-linker > .footer-link{
+    width: 75px;
+    padding: 20px 40px;
+    font-size: 0.9em;
+}
+.footer > .footer-linker > .footer-link a{
+   
+    color:#cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;   
+    
+}
+.footer > .footer-linker > .footer-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/*the socials*/
+.footer > .socials-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer > .socials-link >.social{
+    width:40px;
+    padding: 20px 20px;
+}
+.footer > .socials-link >.social a{
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.6s;
+    font-size: 1.5em;
+}
+.footer > .socials-link >.social a:hover{
+    color: #cea135;
+}
+
+/*copyright*/
+.footer > .copyrights{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.7em;
+    color: #858585;
+}
